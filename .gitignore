@@ -1,0 +1,57 @@
+# === 索引数据库 ===
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+markdown_index.db
+markdown_index.db-*
+
+# === 缓存目录 ===
+.cache/
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+
+# === Python 运行产物 ===
+*.pyc
+*.pyo
+*.pyd
+*.spec
+*.manifest
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === 临时文件 ===
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === IDE/编辑器 ===
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# === 日志 ===
+*.log
+logs/
